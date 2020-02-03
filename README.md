@@ -13,10 +13,10 @@ Para executar o projeto, abra o terminal no diretório onde o mesmo está locali
 ## Informações Adicionais
 Para que a verificação dos sites seja realizada, é necessário escrever os sites que deseja monitorar no arquivo ```sites.txt```, da seguinte forma:
 ```
-http(s):///www.nomedosite.com/org/etc
+http(s)://www.nomedosite.com/org/etc
 ```
-Se quiser verificar outro site, pule uma linha, Exemplo:
+Se quiser verificar mais de um site, pule uma linha e coloque o outro desejado, Exemplo:
 ```
-https:///www.unionu.com.br
-http:///www.univoice.hol.es
+https://www.unionu.com.br
+http://www.univoice.hol.es
 ```
