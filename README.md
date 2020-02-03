@@ -9,3 +9,14 @@ Após clonar o repositório para seu dispositivo, vá na pasta ```/src``` do seu
 
 ## Executar
 Para executar o projeto, abra o terminal no diretório onde o mesmo está localizado e dê o comando ```go run monitora-site.go```.
+
+## Informações Adicionais
+Para que a verificação dos sites seja realizada, é necessário escrever os sites que deseja monitorar no arquivo ```sites.txt```, da seguinte forma:
+```
+http(s):///www.nomedosite.com/org/etc
+```
+Se quiser verificar outro site, pule uma linha, Exemplo:
+```
+https:///www.unionu.com.br
+http:///www.univoice.hol.es
+```
