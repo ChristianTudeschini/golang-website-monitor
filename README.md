@@ -9,7 +9,7 @@ Após clonar o repositório para seu dispositivo, vá na pasta ```/src``` do seu
 
 ## Executar
 Para executar o projeto, abra o terminal no diretório onde o mesmo está localizado e dê o comando
-```go
+```bash
 go run monitora-site.go
 ```
 
