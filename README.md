@@ -8,7 +8,10 @@ Após clonar o repositório para seu dispositivo, vá na pasta ```/src``` do seu
      Disco Local/Go/src/monitora-site
 
 ## Executar
-Para executar o projeto, abra o terminal no diretório onde o mesmo está localizado e dê o comando ```go run monitora-site.go```.
+Para executar o projeto, abra o terminal no diretório onde o mesmo está localizado e dê o comando
+```go
+go run monitora-site.go
+```
 
 ## Informações Adicionais
 Para que a verificação dos sites seja realizada, é necessário escrever os sites que deseja monitorar no arquivo ```sites.txt```, da seguinte forma:
