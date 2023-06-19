@@ -1,25 +1,36 @@
-## Monitorador de Sites
-Monitorador feito em Go que verifica se determinado site está ou não online.
+## Website Monitor
+
+This is a website monitoring tool written in Go that checks whether a specific website is online or not.
 
 ---
-## Instalação
-Após clonar o repositório para seu dispositivo, vá na pasta ```/src``` do seu diretório Go e jogue a pasta ```/monitora-site``` dentro dela.
 
-     Disco Local/Go/src/monitora-site
+## Installation
 
-## Executar
-Para executar o projeto, abra o terminal no diretório onde o mesmo está localizado e dê o comando
-```c
+After cloning the repository to your device, navigate to the `/src` folder in your Go directory and place the `monitora-site` folder inside it.
+
+```
+<your-local-disk>/Go/src/monitora-site
+```
+
+## Execution
+
+To run the project, open the terminal in the directory where it is located and execute the following command:
+
+```shell
 go run monitora-site.go
 ```
 
-## Informações Adicionais
-Para que a verificação dos sites seja realizada, é necessário escrever os sites que deseja monitorar no arquivo ```sites.txt```, da seguinte forma:
+## Additional Information
+
+To monitor websites, you need to write the URLs of the websites you want to monitor in the `sites.txt` file using the following format:
+
 ```
-http(s)://www.nomedosite.com/org/etc
+http(s)://www.example.com/org/etc
 ```
-Se quiser verificar mais de um site, pule uma linha e coloque o outro desejado, Exemplo:
+
+If you want to monitor multiple websites, add a new line and include the URL of the next website. For example:
+
 ```
-https://www.unionu.com.br
-http://www.univoice.hol.es
+https://www.google.com
+https://www.freecodecamp.org/learn/
 ```
