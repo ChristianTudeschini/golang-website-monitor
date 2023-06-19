@@ -1,4 +1,4 @@
-# Website Monitor
+# Golang Website Monitor
 
 This is a website monitoring tool written in Go that checks whether a specific website is online or not.
 
