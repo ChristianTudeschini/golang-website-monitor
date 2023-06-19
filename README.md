@@ -1,15 +1,14 @@
-## Website Monitor
+# Website Monitor
 
 This is a website monitoring tool written in Go that checks whether a specific website is online or not.
 
----
 
 ## Installation
 
 After cloning the repository to your device, navigate to the `/src` folder in your Go directory and place the `monitora-site` folder inside it.
 
 ```
-<your-local-disk>/Go/src/monitora-site
+<your-local-disk>/Go/src/monitora-site/
 ```
 
 ## Execution
@@ -34,3 +33,7 @@ If you want to monitor multiple websites, add a new line and include the URL of 
 https://www.google.com
 https://www.freecodecamp.org/learn/
 ```
+
+## Contributing
+
+Contributions are welcome! If you find any bugs or want to add new features, please feel free to submit an issue or create a pull request.
